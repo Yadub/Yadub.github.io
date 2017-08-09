@@ -6,6 +6,7 @@ h1 {
   text-align: center;
 }
 
+/* Give the page an A4 look */ 
 html, body {
   background-color: #f5f5f5;
   color: #5f5f5f;
@@ -30,6 +31,7 @@ html, body {
   /*min-height: 1122px; */
 }
 
+/* Format Contact information */
 .contact {
   width: 100%;
   text-align: center;
@@ -50,4 +52,15 @@ html, body {
 .contact li:last-child {
   border-right: none;
   padding-right: 0px;
+}
+
+/* Change Link Colors */
+a {
+  color: #c00;
+  text-decoration: none;
+}
+
+a:hover {
+    color: #8B0000;
+    text-decoration: underline;
 }
